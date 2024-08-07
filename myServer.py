@@ -6,7 +6,7 @@ import machine
 wifi=network.WLAN(network.STA_IF)
 wifi.active(True)
 
-wifi.connect('vinod2','7324941056')
+wifi.connect('WiFi Name','password')
 
 while wifi.isconnected()==False:
     print("waiting for connection...")
